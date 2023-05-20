@@ -1,0 +1,66 @@
+/* Write your CSS here */
+.body {
+  margin: 0px;
+}
+.container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-size: 25px;
+  color: #ffffff;
+}
+.card {
+  min-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: space-around;
+  box-sizing: border-box;
+}
+.semi-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.button {
+  font-size: 10px;
+  color: #dd1264;
+  border: 0px;
+  border-radius: 9px;
+  height: 28px;
+  width: 130px;
+  margin: 18px;
+}
+.button-border {
+  border: 1px solid black;
+}
+.name {
+  background-color: #fddddb;
+  height: 70px;
+  width: 150px;
+  border: 0px;
+  border-radius: 6px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .last-name {
+  background-color: #fddddb;
+  height: 70px;
+  width: 150px;
+  border: 0px;
+  border-radius: 6px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
